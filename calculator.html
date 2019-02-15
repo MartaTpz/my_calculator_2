@@ -22,6 +22,12 @@ var num = document.getElementById("n4");
 num.value = Math.pow(num.value, 2);
 }
 
+function inverso() {
+var num = document.getElementById("n5");
+num.value = 1/num.value;
+}
+
+
 
 
 
@@ -51,6 +57,12 @@ Number:
 <button onclick="cuadrado()"> x^2 </button>
 
 </p>
+
+<input type="text" id="n5">
+<p>
+<button onclick="inverso()"> 1/x </button>
+</p>
+
 
 </body>
 </html>
